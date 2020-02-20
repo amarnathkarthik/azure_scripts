@@ -1,0 +1,13 @@
+{
+  "authority": "https://login.microsoftonline.com/<REPLACE_TENENT_ID>",
+  "client_id": "<REPLACE_CLIENT_ID_OF_SPN>",
+  "scope": [ "https://graph.microsoft.com/.default" ],
+  "secret": "<REPLACE_CLIENT_SECRET_OF_SPN>",
+  "create_app_uri": "https://graph.microsoft.com/v1.0/applications",
+  "create_spn_uri": "https://graph.microsoft.com/beta/servicePrincipals",
+  "create_sgp_uri": "https://graph.microsoft.com/v1.0/groups",
+  "spn_prefix": "<REPLACE_SPN_PREFIX [spi-grid-test-]>",
+  "no_of_spns": "4",
+  "sgp_prefix": "<REPLACE_SPN_PREFIX [spg-grid-test-]",
+  "no_of_sgps": "4"
+}
