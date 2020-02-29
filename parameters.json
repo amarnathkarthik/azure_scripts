@@ -11,7 +11,7 @@
   "sgp_add_owner_uri": "https://graph.microsoft.com/v1.0/groups/{}/owners/$ref",
   "sgp_add_member_uri": "https://graph.microsoft.com/v1.0/groups/{}/members/$ref",
   "sgp_group_owner": "<REPLACE_GROUP_OWNER_ID",
-  "spn_prefix": ""<REPLACE_SPN_PREFIX [spi-grid-test-]>",
+  "spn_prefix": "<REPLACE_SPN_PREFIX [spi-grid-test-]>",
   "no_of_spns": "4",
   "sgp_prefix": "<REPLACE_SPN_PREFIX [spg-grid-test-]>",
   "no_of_sgps": "4",
