@@ -5,9 +5,18 @@
   "secret": "<REPLACE_CLIENT_SECRET_OF_SPN>",
   "create_app_uri": "https://graph.microsoft.com/v1.0/applications",
   "create_spn_uri": "https://graph.microsoft.com/beta/servicePrincipals",
+  "spn_filter_uri": "?$filter=startswith(displayName,'{}')",
   "create_sgp_uri": "https://graph.microsoft.com/v1.0/groups",
-  "spn_prefix": "<REPLACE_SPN_PREFIX [spi-grid-test-]>",
+  "sgp_filter_uri": "?$filter=startswith(displayName,'{}')",
+  "sgp_add_owner_uri": "https://graph.microsoft.com/v1.0/groups/{}/owners/$ref",
+  "sgp_add_member_uri": "https://graph.microsoft.com/v1.0/groups/{}/members/$ref",
+  "sgp_group_owner": "<REPLACE_GROUP_OWNER_ID",
+  "spn_prefix": ""<REPLACE_SPN_PREFIX [spi-grid-test-]>",
   "no_of_spns": "4",
-  "sgp_prefix": "<REPLACE_SPN_PREFIX [spg-grid-test-]",
-  "no_of_sgps": "4"
+  "sgp_prefix": "<REPLACE_SPN_PREFIX [spg-grid-test-]>",
+  "no_of_sgps": "4",
+  "uc1_spn": "<REPLACE_SPN_FOR_USE_CASE1>",
+  "uc2_sgp": "<REPLACE_SGP_FOR_USE_CASE2>"
 }
+
+
